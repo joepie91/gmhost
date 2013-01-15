@@ -1,0 +1,17 @@
+{
+	"locale": {
+		"path": 		"locales",
+		"extension":		"lng",
+		"default_locale": 	"english",
+		"default_timezone": 	"Europe/Amsterdam"
+	},
+	"memcache": {
+		"enabled": 	false
+	},
+	"components": [
+		"router"
+	],
+	"tahoe_uri": "http://localhost:3456",
+	"public_dir": "URI:DIR2:your-public-tahoe-directory-goes-here",
+	"secret_dir": "URI:DIR2:your-private-tahoe-directory-goes-here"
+}
